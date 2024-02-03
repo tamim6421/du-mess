@@ -1,0 +1,90 @@
+.mainContainer {
+    background: #eee;
+    position: relative;
+    margin-top: 45px;
+  }
+  .content {
+    width: 90%;
+    position: relative;
+    left: 250px;
+  }
+  
+  .contactInstitute {
+    width: 100%;
+    display: flex;
+  }
+  .contact {
+    width: 48%;
+    margin-right: 4%;
+  }
+  .institute {
+    width: 48%;
+  }
+  @media (max-width: 768px) {
+    .content {
+      position: relative;
+      left: 0px;
+    }
+    .contactInstitute {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact,
+    .institute {
+      width: 100%;
+    }
+  }
+  .inputLabel {
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+  .inputField {
+    padding: 6px 15px;
+  }
+  .inputField:hover,
+  .inputField:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .inputNumber::-webkit-inner-spin-button,
+  .inputNumber::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  
+  .mainContainer input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .mainContainer input[type="file"]::before {
+    content: 'Update Profile'; 
+    display: inline-block;
+    background-color: #007bff; 
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit {
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .element {
+      /* Styles for small devices */
+      width: 100%;
+    }
+  }
+  
+  /* Styles for devices with width greater than 768px */
+  @media (min-width: 769px) {
+    .element {
+      /* Styles for larger devices */
+      width: 50%;
+    }
+  }

@@ -1,0 +1,37 @@
+.mainContainer {
+  background: #ffffff;
+  position: relative;
+  margin-top: 45px;
+}
+.content {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  left: 250px;
+}
+.contentContainer {
+  background-color: #fff;
+  padding: 15px 12px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+@media (max-width: 767px) {
+  .content {
+    position: relative;
+    left: 0px;
+  }
+  .element {
+    width: 100%;
+  }
+}
+
+
+
+/* Styles for devices with width greater than 768px */
+@media (min-width: 769px) {
+  .element {
+    width: 50%;
+  }
+}

@@ -1,0 +1,36 @@
+.keyFeature{
+    padding-bottom: 70px;
+}
+.img {
+  width: 480px;
+  height: 330px;
+  /* border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; */
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #43929c;
+}
+.des {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.keyFeature ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.keyFeature li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.keyFeature li::before {
+  content: "•";
+  position: absolute;
+  left: 5px;
+  color: #007bff; /* Change color as per your design */
+}

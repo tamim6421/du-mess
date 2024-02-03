@@ -1,0 +1,72 @@
+.footer {
+    background-color: #000000;
+    color: #a7a5af;
+    padding: 60px 0;
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #f4f4f4;
+  }
+  .footerItems {
+    list-style-type: none;
+  }
+  .footerIcon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .footerLink {
+    color: #a7a5af;
+    text-decoration: none;
+  }
+  .footerLink:hover span {
+    color: #604dcc;
+  }
+  .footerSocialIcons {
+    display: flex;
+  }
+  .footerSocialIconLink{
+      color: #a7a5af;
+      text-decoration: none;
+  }
+  .footerSocialIconLink:hover{
+      color: #fff;
+  }
+  .footerSocialIcon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #a7a5af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .footerSocialIcon:nth-child(1):hover {
+    background: #1DA1F2;
+      color: white;
+      border: 1px solid #1DA1F2;
+  }
+  .footerSocialIcon:nth-child(2):hover {
+    background: #0866FF;
+      color: white;
+      border: 1px solid #0866FF;
+  }
+  .footerSocialIcon:nth-child(3):hover {
+    background: red;
+      color: white;
+      border: 1px solid red;
+  }
+  .footerSocialIcon:nth-child(4):hover {
+    background: #0A66C2;
+      color: white;
+      border: 1px solid #0A66C2;
+  }
+  .ancovaLogo{
+      width: 130px;
+      height: auto;
+      object-fit: cover;
+  }

@@ -1,0 +1,50 @@
+.mainContainer {
+    background: #eee;
+    position: relative;
+    margin-top: 45px;
+  }
+  .content {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    left: 250px;
+  }
+  .profileBox {
+    background: #fff;
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+  }
+  .imgUpdateButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .titleSubTitle{
+      margin-left: 30px;
+  }
+  .title{
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 4px;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  .subTitle{
+      font-size: 14px;
+  }
+  @media (max-width: 767px) {
+    .content {
+      position: relative;
+      left: 0px;
+    }
+    .imgUpdateButton{
+      text-align: center;
+    }
+    .titleSubTitle{
+      margin-left: 10px;
+  }
+  }

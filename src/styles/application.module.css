@@ -1,0 +1,72 @@
+.application {
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.contactInstitute {
+  width: 100%;
+  display: flex;
+}
+.contact {
+  width: 100%;
+}
+.institute {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .contactInstitute {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact,
+  .institute {
+    width: 100%;
+  }
+}
+.inputLabel {
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+.inputField {
+  padding: 6px 15px;
+}
+.inputField:hover,
+.inputField:focus {
+  box-shadow: none;
+  outline: none;
+}
+.inputNumber::-webkit-inner-spin-button,
+.inputNumber::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.passwordIconDiv {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.passwordIcon {
+  font-size: 18px;
+  cursor: pointer;
+}
+.submit {
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+@media (max-width: 768px) {
+  .contactInstitute {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact,
+  .institute {
+    width: 100%;
+  }
+}

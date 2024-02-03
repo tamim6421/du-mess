@@ -1,0 +1,11 @@
+.contact {
+    background: #edf0f2;
+  }
+.inputField {
+    padding: 6px 15px;
+  }
+  .inputField:hover,
+  .inputField:focus {
+    box-shadow: none;
+    outline: none;
+  }
