@@ -176,19 +176,21 @@ export default function UpdateInfo() {
       </Head>
       <main>
         {loading ? (
-          <div className="loadingContainer">
+          <div className="loadingContainer ">
             <img src="./loading.gif" alt="" className="loadingGif" />
           </div>
         ) : (
           <>
-            <div className={`${Style.mainContainer} d-flex`}>
+            <div className={`${Style.mainContainer} d-flex pt-3`}>
               {/* Dashboard Left Side and Header */}
               <DashboardLeftSide />
 
               {/* Main Content */}
-              <div className={`${Style.content} ${Style.element} px-4 mt-3 mb-3  ms-5 p-3 bg-light rounded shadow-lg`}>
+              <div className={`${Style.content} ${Style.element} px-2 mt-3 mb-3  ms-5 p-3 bg-light rounded shadow-lg`}>
+              
                 <Row>
                   <Col lg={8} md={10} sm={12} className="mx-auto">
+                  <p className="fw-bold fs-4" style={{ color: "#7da5a8" }}>Update Profile Info</p>
                     <img
                       src={baseImgUrl + profileData?.profile_image}
                       alt=""
@@ -244,6 +246,7 @@ export default function UpdateInfo() {
                             type="number"
                             className={`${Style.inputField} ${Style.inputNumber}`}
                             name="phone"
+                            readOnly
                             onChange={handleChange}
                             defaultValue={profileData?.phone}
                           />
@@ -262,6 +265,7 @@ export default function UpdateInfo() {
                           <Form.Control
                             size="sm"
                             type="email"
+                            readOnly
                             className={`${Style.inputField} input`}
                             name="email"
                             onChange={handleChange}
