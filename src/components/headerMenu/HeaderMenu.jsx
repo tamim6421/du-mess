@@ -30,14 +30,14 @@ const HeaderMenu = () => {
       <Container>
         <Navbar.Brand className={Style.menuBrand}>
           <Link href="/">
-            {/* <img
+            <img
               className={Style.logo}
-              src="/hostel.png"
+              src="/DU-mess.png"
               alt=""
               onClick={() => setExpanded(false)}
-            /> */}
+            />
 
-            <span className="fs-2 fw-bold " style={{color: "#1b0694"}}>DU <span className="fs-4" style={{color:"#290bd6"}}>MESS</span> </span>
+           
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle
